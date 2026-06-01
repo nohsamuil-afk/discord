@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+}
+
+
+a {
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+select{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+article img {
+    width: 750px;
+    height: 450px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: white;
+    
+}
+
+article {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top:100px;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+ header button {
+    padding:10px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 600;
+}
+
+
+body {
+    background: linear-gradient(blue,skyblue);
+    height: 100vh;
+    
+}
+
+h1  {
+    font-size: 60px;
+    color: white;
+    padding: 10px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing:-12%;
+    line-height: 80%;
+
+
+    
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+}
+
+header img {
+    border-radius: 20px;
+}
+
+
+button {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+@media (max-width:768px) {
+    article img {
+        width: 300px;
+        height: 150px;
+        padding: 0;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+        gap: 15px;
+    }
+
+    body {
+        height: 150vh;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin: 0;
+        
+    }
+
+    p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    select {
+        display: none;
+    }
+
+    header nav {
+        gap: 10px;
+    }
+
+    header {
+        width: 50%;
+        margin: auto;
+        gap: 250px;
+        
+
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    a {
+        font-size: 10px;
+        display: none;
+    }
+
+    header button {
+        width: 100px;
+        position: absolute;
+        right: 10px;
+
+    }
+}
